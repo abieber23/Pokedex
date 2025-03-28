@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="Images/Pokemon Logo.pdf.png" type="image/png">
+</head>
+<body onload="init()">
+
+
+
+    <header>
+
+       <div class="header-img"> <img class="header-img" onclick="location.reload()" src="Images/Pokemon Logo.pdf.png" alt="" srcset=""></div>
+        <h1>Pokedex</h1>
+
+        <input id="searchBar" oninput="filterPokemon()" type="text" placeholder="Suchen...">
+
+    </header>
+
+ 
+
+    <div class="main" id="main">
+        
+
+
+            
+
+
+            <div class="overlay" id="overlay" onclick="toggleDnone()">
+
+            </div>
+
+
+            <div id="loading-spinner" class="spinner">
+
+            </div>
+      
+            
+
+    </div>       
+
+
+
+    <div>
+        <button class="load-more" onclick="loadMorePokemon()">load more Pokemon...</button>
+        
+    </div>
+ <script src="scripts/script.js" defer></script>
+ <script src="scripts/template.js"></script>
+
+</body>
+</html>
