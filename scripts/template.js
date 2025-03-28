@@ -134,14 +134,3 @@ function getOverlayCard(i, data) {
 
 
 
-function createMainStats (i, data){
-    console.log(i, data);
-}
-
-function createDetailStats (i, data){
-    console.log(i, data);
-}
-
-function createEvochain (i, data){
-    console.log(i, data);
-}
